@@ -10,10 +10,10 @@
     <nav>
       <h2>MAF</h2>
       <ul id="#menu-links">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#hero-section">Home</a></li>
+        <li><a href="#about-section">About</a></li>
+        <li><a href="#gallery-section">Gallery</a></li>
+        <li><a href="#footer">Contact</a></li>
       </ul>
       <img
         onclick="toggleMenu()"
@@ -33,7 +33,7 @@
       </div>
     </section>
 
-    <section class="section about-section">
+    <section class="section about-section" id="about-section">
       <div class="container">
         <h2 class="sub-title">About Mudashiru Ayanbisi Foundation</h2>
         <div class="grid--2">
@@ -79,26 +79,25 @@
       </div>
     </section>
 
-    <section class="gallery">
+    <section class="gallery-section" id="gallery-section">
       <div class="container">
         <h2 class="sub-title">gallery</h2>
         <div class="pic-grid">
-          <img src="images/IMG-20240310-WA0014.jpg" alt="" />
-          <img src="images/IMG-20240310-WA0015.jpg" alt="" />
-          <img src="images/IMG-20240310-WA0016.jpg" alt="" />
-          <img src="images/IMG-20240310-WA0017.jpg" alt="" />
-          <img src="images/IMG-20240310-WA0018.jpg" alt="" />
-          <img src="images/IMG-20240310-WA0019.jpg" alt="" />
-          <img src="images/IMG-20240310-WA0020.jpg" alt="" />
-          <img src="images/IMG-20240310-WA0021.jpg" alt="" />
-          <img src="images/IMG-20240310-WA0022.jpg" alt="" />
-          <img src="images/IMG-20240310-WA0023.jpg" alt="" />
-          <img src="images/IMG-20240310-WA0024.jpg" alt="" />
+          <img src="images/MAF/IMG-20240310-WA0014.jpg" alt="" />
+          <img src="images/MAF/IMG-20240310-WA0015.jpg" alt="" />
+          <img src="images/MAF/IMG-20240310-WA0016.jpg" alt="" />
+          <img src="images/MAF/IMG-20240310-WA0017.jpg" alt="" />
+          <img src="images/MAF/IMG-20240310-WA0018.jpg" alt="" />
+          <img src="images/MAF/IMG-20240310-WA0019.jpg" alt="" />
+          <img src="images/MAF/IMG-20240310-WA0020.jpg" alt="" />
+          <img src="images/MAF/IMG-20240310-WA0021.jpg" alt="" />
+          <img src="images/MAF/IMG-20240310-WA0023.jpg" alt="" />
+          <img src="images/MAF/IMG-20240310-WA0024.jpg" alt="" />
         </div>
       </div>
     </section>
 
-    <footer>
+    <footer id="footer">
       <div class="row">
         <div class="col">
           <h2>MAF</h2>
@@ -109,11 +108,11 @@
             Office
             <div class="underline"><span></span></div>
           </h3>
-          <p>7b Bisiru Enifeni,</p>
-          <p>Solomade Estate,</p>
-          <p>Ikorudu, Lagos</p>
-          <p class="email-id">owolabilanre2006@gmail.com</p>
-          <h4>+234 915 435 2021</h4>
+          <p>14, Folagbade Ajibuwa Crescent</p>
+          <p>LFI Estate,</p>
+          <p>Igbogbo Baiyeku, Lagos State</p>
+          <p class="email-id">oluwaperosayemiajibuwa@gmail.com</p>
+          <h4>+234 9027119858</h4>
         </div>
         <div class="col">
           <h3>
@@ -142,14 +141,14 @@
           </form>
           <div class="socail-icons">
             <a href="https://facebook.com"
-              ><img src="images/facebook.png" alt=""
-            /></a>
+              ><ion-icon name="logo-facebook"></ion-icon
+            ></a>
             <a href="https://twitter.com"
-              ><img src="images/twitter.png" alt=""
-            /></a>
-            <a href="https://telegram.com"
-              ><img src="images/telegram.png" alt=""
-            /></a>
+              ><ion-icon name="logo-twitter"></ion-icon
+            ></a>
+            <a href="https://instagram.com"
+              ><ion-icon name="logo-instagram"></ion-icon
+            ></a>
           </div>
         </div>
       </div>
@@ -160,5 +159,13 @@
       <!-- <p class="copy-right">copyright: <span id="current-year"></span> © </p> -->
     </footer>
     <script src="script.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
   </body>
 </html>
